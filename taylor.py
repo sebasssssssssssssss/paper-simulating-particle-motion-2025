@@ -273,5 +273,5 @@ ax.set_ylim(VY.min()-0.1, VY.max()+0.1)
 ax.axis('off')
 
 plt.tight_layout()
-plt.savefig("taylor.png", dpi=300, bbox_inches='tight')
+plt.savefig("figures/taylor.png", dpi=300, bbox_inches='tight')
 plt.show()
