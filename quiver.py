@@ -53,6 +53,6 @@ plt.xlabel("x", fontsize=14)
 plt.ylabel("y", fontsize=14)
 plt.axis("equal")
 plt.title("Velocity Vector Field", fontsize=16)
-plt.savefig("quiver.png", dpi=300)
+plt.savefig("figures/quiver.png", dpi=300)
 plt.show()
 
