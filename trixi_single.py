@@ -250,7 +250,7 @@ for spine in ax.spines.values(): # no axis lines
     spine.set_visible(False)
 
 plt.tight_layout()
-plt.savefig("trixi_single.png", dpi=300)  # High-res PNG
+plt.savefig("figures/trixi_single.png", dpi=300)  # High-res PNG
 plt.show()
 
 
