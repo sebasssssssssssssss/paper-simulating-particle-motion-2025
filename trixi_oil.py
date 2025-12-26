@@ -233,6 +233,6 @@ cbar.set_ticklabels(['t=0','t=30'])
 cbar.set_label('Normalized time', labelpad=8)
 
 plt.tight_layout()
-plt.savefig("oil.png", dpi=300, bbox_inches='tight')
+plt.savefig("figures/oil.png", dpi=300, bbox_inches='tight')
 plt.show()
 
