@@ -1,2 +1,5 @@
 # paper-simulating-particle-motion-2025
 This repository contains code and data used to generate results for a manuscript in preparation, developed during a 2025 Research Experience for Undergraduates in the Department of Computational and Applied Mathematics at Rice University, titled “Simulating Particle Motion on Unstructured Meshes Using Inverse Isoparametric Mapping and Bilinear Interpolation.”
+
+# Manuscript Codes
+The scripts are listed in the order corresponding to their associated figures in the manuscript.
