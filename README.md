@@ -11,9 +11,9 @@ The nodal spatial and temporal data used in this repository were generated using
 ## Manuscript Codes
 The scripts are listed in the order corresponding to their associated figures in the manuscript.
 - **Figure 1** `rk2.py`:
-- `quiver.py`:
-- `multi.py`:
-- `taylor.py`:
-- `trixi_single.py`:
-- `trixi_multi.py`:
-- `trixi_oil.py`:
+- **Figure 5** `quiver.py`:
+- **Figure 6** `multi.py`:
+- **Figure 7** `taylor.py`:
+- **Figure 8** `trixi_single.py`:
+- **Figure 9** `trixi_multi.py`:
+- **Figure 10** `trixi_oil.py`:
