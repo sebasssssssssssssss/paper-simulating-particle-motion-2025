@@ -9,11 +9,12 @@ The nodal spatial and temporal data used in this repository were generated using
 - `Trixi_mesh_100_timesteps/`: Time-resolved velocity field across 100 snapshots.
 
 ## Manuscript Codes
-The scripts are listed in the order corresponding to their associated figures in the manuscript.
-- **Figure 1** `rk2.py`: Demonstrates RK2 timestep sensitivity by comparing numerical trajectories against the exact solution for a simple test ODE. :contentReference[oaicite:4]{index=4}
-- **Figure 5** `quiver.py`:
-- **Figure 6** `multi.py`:
-- **Figure 7** `taylor.py`:
-- **Figure 8** `trixi_single.py`:
-- **Figure 9** `trixi_multi.py`:
-- **Figure 10** `trixi_oil.py`:
+The scripts are listed in the order of appearance of their corresponding figures in the manuscript.
+- **Figure 1** — `rk2.py`: Demonstrates RK2 timestep sensitivity by comparing numerical trajectories against the exact solution for a simple test ODE. 
+- **Figure 5** — `quiver.py`: Generates a quiver visualization of the prescribed velocity field used for the structured-mesh constant-velocity test case. 
+- **Figure 6** — `multi.py`: Computes and plots multiple particle trajectories under the same constant velocity field.
+- **Figure 7** — `taylor.py`: Simulates particle trajectories in the time-dependent Taylor–Green vortex and compares RK2-advected paths against the analytical ones. Trajectory errors are also reported.
+- **Figure 8** — `trixi_single.py`: Computes a single-particle trajectory on the unstructured quadrilateral mesh using the time-averaged velocity field over the provided timesteps. 
+- **Figure 9** — `trixi_multi.py`: Produces the snapshot sequence of instantaneous velocity fields and multi-particle trajectories at selected times (t = 0, 5, 15, 30). 
+- **Figure 10** — `trixi_oil.py`: Runs the 2000-particle “oil spill” dispersion experiment with vertically stacked circular seeding and advects particles through the time-dependent velocity data. 
+
