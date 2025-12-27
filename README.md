@@ -10,7 +10,7 @@ The nodal spatial and temporal data used in this repository were generated using
 
 ## Manuscript Codes
 The scripts are listed in the order corresponding to their associated figures in the manuscript.
-- **Figure 1**`rk2.py`:
+- **Figure 1** `rk2.py`:
 - `quiver.py`:
 - `multi.py`:
 - `taylor.py`:
