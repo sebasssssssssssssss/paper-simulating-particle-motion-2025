@@ -10,7 +10,7 @@ The nodal spatial and temporal data used in this repository were generated using
 
 ## Manuscript Codes
 The scripts are listed in the order corresponding to their associated figures in the manuscript.
-- **Figure 1** `rk2.py`:
+- **Figure 1** `rk2.py`: Demonstrates RK2 timestep sensitivity by comparing numerical trajectories against the exact solution for a simple test ODE. :contentReference[oaicite:4]{index=4}
 - **Figure 5** `quiver.py`:
 - **Figure 6** `multi.py`:
 - **Figure 7** `taylor.py`:
